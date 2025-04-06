@@ -53,7 +53,7 @@ export default function Testimonials() {
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden mr-4 bg-gradient-to-br from-blue-400 to-purple-500">
                   <Image
-                    src={testimonial.image || "/placeholder.svg"}
+                    src={testimonial.image || "/sara john.png,"}
                     alt={testimonial.name}
                     width={48}
                     height={48}
