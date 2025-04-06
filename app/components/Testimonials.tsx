@@ -9,23 +9,23 @@ const testimonials = [
   {
     quote:
       "Samsom is an exceptional developer who transformed our outdated systems into a modern, efficient platform. His deep knowledge of Java and Spring Boot helped us reduce load times by 40% while improving reliability.",
-    name: "David Chen",
-    title: "CTO, FinTech Solutions",
-    image: "/placeholder.svg?height=100&width=100&text=DC",
+    name: "Sara john",
+    title: "CTO, Minstry of Tourism",
+    image: "/sara john.png",
   },
   {
     quote:
       "Working with Samsom on our microservices migration was a game-changer. He not only delivered high-quality code but also educated our team on best practices. His ability to simplify complex concepts made the transition smooth.",
-    name: "Sarah Johnson",
-    title: "Engineering Manager, RetailConnect",
-    image: "/placeholder.svg?height=100&width=100&text=SJ",
+    name: "Abel Asgedom",
+    title: "Engineering Manager, Commerical Bank",
+    image: "/abel asgedom.png",
   },
   {
     quote:
       "Samsom's technical expertise is matched only by his collaborative approach. He quickly integrated with our team and took ownership of critical components. His solutions are always well-architected and forward-thinking.",
-    name: "Michael Rodriguez",
-    title: "Lead Developer, HealthTech Innovations",
-    image: "/placeholder.svg?height=100&width=100&text=MR",
+    name: "Ken Drake",
+    title: "Lead Developer, Bannos",
+    image: "/ken.png",
   },
 ]
 
