@@ -11,21 +11,21 @@ const testimonials = [
       "Samsom is an exceptional developer who transformed our outdated systems into a modern, efficient platform. His deep knowledge of Java and Spring Boot helped us reduce load times by 40% while improving reliability.",
     name: "Sara john",
     title: "CTO, Minstry of Tourism",
-    image: "/sara john.png",
+    image: "/sara john.jpg",
   },
   {
     quote:
       "Working with Samsom on our microservices migration was a game-changer. He not only delivered high-quality code but also educated our team on best practices. His ability to simplify complex concepts made the transition smooth.",
     name: "Abel Asgedom",
     title: "Engineering Manager, Commerical Bank",
-    image: "/abel asgedom.png",
+    image: "/abel asgedom.jpg",
   },
   {
     quote:
       "Samsom's technical expertise is matched only by his collaborative approach. He quickly integrated with our team and took ownership of critical components. His solutions are always well-architected and forward-thinking.",
     name: "Ken Drake",
     title: "Lead Developer, Bannos",
-    image: "/ken.png",
+    image: "/ken.jpg",
   },
 ]
 
@@ -53,7 +53,7 @@ export default function Testimonials() {
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full overflow-hidden mr-4 bg-gradient-to-br from-blue-400 to-purple-500">
                   <Image
-                    src={testimonial.image}
+                    src={testimonial.image || "/abel asgedom.png"}
                     alt={testimonial.name}
                     width={48}
                     height={48}
