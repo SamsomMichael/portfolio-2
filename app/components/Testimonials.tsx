@@ -51,7 +51,7 @@ export default function Testimonials() {
               <Quote className="absolute top-4 right-4 w-10 h-10 text-blue-100 dark:text-blue-900" />
               <p className="text-gray-700 dark:text-gray-300 mb-6 italic">"{testimonial.quote}"</p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full overflow-hidden mr-4 bg-gradient-to-br from-blue-400 to-purple-500">
+                {/* <div className="w-12 h-12 rounded-full overflow-hidden mr-4 bg-gradient-to-br from-blue-400 to-purple-500">
                   <Image
                     src={testimonial.image || "/abel asgedom.png"}
                     alt={testimonial.name}
@@ -59,7 +59,7 @@ export default function Testimonials() {
                     height={48}
                     className="object-cover"
                   />
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">{testimonial.title}</p>
