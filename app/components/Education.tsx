@@ -30,10 +30,10 @@ export default function Education() {
 
   return (
     <section
-      id="education"
-      className="py-20 bg-gradient-to-br from-indigo-50 to-purple-100 dark:from-gray-900 dark:to-purple-900 transition-colors duration-300 overflow-hidden relative"
+      // id="education"
+      // className="py-20 bg-gradient-to-br from-indigo-50 to-purple-100 dark:from-gray-900 dark:to-purple-900 transition-colors duration-300 overflow-hidden relative"
     >
-      <div className="container mx-auto px-6 relative z-10">
+      {/* <div className="container mx-auto px-6 relative z-10">
         <AnimatedSectionHeader title="Education" />
         <div className="max-w-3xl mx-auto">
           {education.map((edu, index) => (
@@ -72,10 +72,10 @@ export default function Education() {
             </motion.div>
           ))}
         </div>
-      </div>
-      <div className="absolute top-0 left-0 w-64 h-64 -mt-32 -ml-32 opacity-20">
+      </div> */}
+      {/* <div className="absolute top-0 left-0 w-64 h-64 -mt-32 -ml-32 opacity-20">
         <Image src="/placeholder.svg?height=256&width=256" alt="Decorative background" width={256} height={256} />
-      </div>
+      </div> */}
     </section>
   )
 }
